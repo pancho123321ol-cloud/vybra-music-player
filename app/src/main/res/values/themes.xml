@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vybra_background">#FF0A0A0C</color>
+    <color name="vybra_accent">#FFFF4D6D</color>
+    <color name="ic_launcher_background">#FF15121A</color>
+
+    <style name="Theme.Vybra" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/vybra_background</item>
+        <item name="android:colorAccent">@color/vybra_accent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
